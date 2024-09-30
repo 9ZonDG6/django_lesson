@@ -2,7 +2,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hello, app_one!")
+    return HttpResponse("Hello, first app!")
 
 
 def catalog(request):
